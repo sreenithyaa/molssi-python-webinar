@@ -1,5 +1,7 @@
 """
 Tests for geom analysis functions
+
+Make proper changes Nithya
 """
 
 import geom_analysis as ga
@@ -34,3 +36,5 @@ def test_bond_check_1p6():
     observed = ga.bond_check(bond_distance)
     
     assert observed == expected
+    
+    
